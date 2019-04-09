@@ -24,9 +24,6 @@
     self.wkWeb.UIDelegate = self;
     self.wkWeb.navigationDelegate = self;
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"aaaaaa" withExtension:@"html"];
-    // 加载网络上的html
-    //    NSURL *url = [NSURL URLWithString:@"http://www.baidu.com"];
-    
     [self.wkWeb loadRequest:[NSURLRequest requestWithURL:url]];
     [self.view addSubview:self.wkWeb];
     
