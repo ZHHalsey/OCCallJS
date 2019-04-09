@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F993CEFB225C75F500950395 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F993CEFA225C75F500950395 /* AppDelegate.m */; };
+		F993CEFE225C75F500950395 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F993CEFD225C75F500950395 /* ViewController.m */; };
+		F993CF01225C75F500950395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F993CEFF225C75F500950395 /* Main.storyboard */; };
+		F993CF03225C75F700950395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F993CF02225C75F700950395 /* Assets.xcassets */; };
+		F993CF06225C75F700950395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F993CF04225C75F700950395 /* LaunchScreen.storyboard */; };
+		F993CF09225C75F700950395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F993CF08225C75F700950395 /* main.m */; };
+		F993CF13225C75F700950395 /* OCCallJSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F993CF12225C75F700950395 /* OCCallJSTests.m */; };
+		F993CF1E225C75F700950395 /* OCCallJSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F993CF1D225C75F700950395 /* OCCallJSUITests.m */; };
+		F993CF2C225C761200950395 /* aaaaaa.html in Resources */ = {isa = PBXBuildFile; fileRef = F993CF2B225C761100950395 /* aaaaaa.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F993CF0F225C75F700950395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F993CEEE225C75F500950395 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F993CEF5225C75F500950395;
+			remoteInfo = OCCallJS;
+		};
+		F993CF1A225C75F700950395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F993CEEE225C75F500950395 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F993CEF5225C75F500950395;
+			remoteInfo = OCCallJS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F993CEF6225C75F500950395 /* OCCallJS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCCallJS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F993CEF9225C75F500950395 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F993CEFA225C75F500950395 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F993CEFC225C75F500950395 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F993CEFD225C75F500950395 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F993CF00225C75F500950395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F993CF02225C75F700950395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F993CF05225C75F700950395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F993CF07225C75F700950395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F993CF08225C75F700950395 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F993CF0E225C75F700950395 /* OCCallJSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCCallJSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F993CF12225C75F700950395 /* OCCallJSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCCallJSTests.m; sourceTree = "<group>"; };
+		F993CF14225C75F700950395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F993CF19225C75F700950395 /* OCCallJSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCCallJSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F993CF1D225C75F700950395 /* OCCallJSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCCallJSUITests.m; sourceTree = "<group>"; };
+		F993CF1F225C75F700950395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F993CF2B225C761100950395 /* aaaaaa.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aaaaaa.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F993CEF3225C75F500950395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F993CF0B225C75F700950395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F993CF16225C75F700950395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F993CEED225C75F500950395 = {
+			isa = PBXGroup;
+			children = (
+				F993CEF8225C75F500950395 /* OCCallJS */,
+				F993CF11225C75F700950395 /* OCCallJSTests */,
+				F993CF1C225C75F700950395 /* OCCallJSUITests */,
+				F993CEF7225C75F500950395 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F993CEF7225C75F500950395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F993CEF6225C75F500950395 /* OCCallJS.app */,
+				F993CF0E225C75F700950395 /* OCCallJSTests.xctest */,
+				F993CF19225C75F700950395 /* OCCallJSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F993CEF8225C75F500950395 /* OCCallJS */ = {
+			isa = PBXGroup;
+			children = (
+				F993CEF9225C75F500950395 /* AppDelegate.h */,
+				F993CEFA225C75F500950395 /* AppDelegate.m */,
+				F993CEFC225C75F500950395 /* ViewController.h */,
+				F993CEFD225C75F500950395 /* ViewController.m */,
+				F993CF2B225C761100950395 /* aaaaaa.html */,
+				F993CEFF225C75F500950395 /* Main.storyboard */,
+				F993CF02225C75F700950395 /* Assets.xcassets */,
+				F993CF04225C75F700950395 /* LaunchScreen.storyboard */,
+				F993CF07225C75F700950395 /* Info.plist */,
+				F993CF08225C75F700950395 /* main.m */,
+			);
+			path = OCCallJS;
+			sourceTree = "<group>";
+		};
+		F993CF11225C75F700950395 /* OCCallJSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F993CF12225C75F700950395 /* OCCallJSTests.m */,
+				F993CF14225C75F700950395 /* Info.plist */,
+			);
+			path = OCCallJSTests;
+			sourceTree = "<group>";
+		};
+		F993CF1C225C75F700950395 /* OCCallJSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F993CF1D225C75F700950395 /* OCCallJSUITests.m */,
+				F993CF1F225C75F700950395 /* Info.plist */,
+			);
+			path = OCCallJSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F993CEF5225C75F500950395 /* OCCallJS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F993CF22225C75F700950395 /* Build configuration list for PBXNativeTarget "OCCallJS" */;
+			buildPhases = (
+				F993CEF2225C75F500950395 /* Sources */,
+				F993CEF3225C75F500950395 /* Frameworks */,
+				F993CEF4225C75F500950395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCCallJS;
+			productName = OCCallJS;
+			productReference = F993CEF6225C75F500950395 /* OCCallJS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F993CF0D225C75F700950395 /* OCCallJSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F993CF25225C75F700950395 /* Build configuration list for PBXNativeTarget "OCCallJSTests" */;
+			buildPhases = (
+				F993CF0A225C75F700950395 /* Sources */,
+				F993CF0B225C75F700950395 /* Frameworks */,
+				F993CF0C225C75F700950395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F993CF10225C75F700950395 /* PBXTargetDependency */,
+			);
+			name = OCCallJSTests;
+			productName = OCCallJSTests;
+			productReference = F993CF0E225C75F700950395 /* OCCallJSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F993CF18225C75F700950395 /* OCCallJSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F993CF28225C75F700950395 /* Build configuration list for PBXNativeTarget "OCCallJSUITests" */;
+			buildPhases = (
+				F993CF15225C75F700950395 /* Sources */,
+				F993CF16225C75F700950395 /* Frameworks */,
+				F993CF17225C75F700950395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F993CF1B225C75F700950395 /* PBXTargetDependency */,
+			);
+			name = OCCallJSUITests;
+			productName = OCCallJSUITests;
+			productReference = F993CF19225C75F700950395 /* OCCallJSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F993CEEE225C75F500950395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "张豪";
+				TargetAttributes = {
+					F993CEF5225C75F500950395 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F993CF0D225C75F700950395 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F993CEF5225C75F500950395;
+					};
+					F993CF18225C75F700950395 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F993CEF5225C75F500950395;
+					};
+				};
+			};
+			buildConfigurationList = F993CEF1225C75F500950395 /* Build configuration list for PBXProject "OCCallJS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F993CEED225C75F500950395;
+			productRefGroup = F993CEF7225C75F500950395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F993CEF5225C75F500950395 /* OCCallJS */,
+				F993CF0D225C75F700950395 /* OCCallJSTests */,
+				F993CF18225C75F700950395 /* OCCallJSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F993CEF4225C75F500950395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F993CF2C225C761200950395 /* aaaaaa.html in Resources */,
+				F993CF06225C75F700950395 /* LaunchScreen.storyboard in Resources */,
+				F993CF03225C75F700950395 /* Assets.xcassets in Resources */,
+				F993CF01225C75F500950395 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F993CF0C225C75F700950395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F993CF17225C75F700950395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F993CEF2225C75F500950395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F993CEFE225C75F500950395 /* ViewController.m in Sources */,
+				F993CF09225C75F700950395 /* main.m in Sources */,
+				F993CEFB225C75F500950395 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F993CF0A225C75F700950395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F993CF13225C75F700950395 /* OCCallJSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F993CF15225C75F700950395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F993CF1E225C75F700950395 /* OCCallJSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F993CF10225C75F700950395 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F993CEF5225C75F500950395 /* OCCallJS */;
+			targetProxy = F993CF0F225C75F700950395 /* PBXContainerItemProxy */;
+		};
+		F993CF1B225C75F700950395 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F993CEF5225C75F500950395 /* OCCallJS */;
+			targetProxy = F993CF1A225C75F700950395 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F993CEFF225C75F500950395 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F993CF00225C75F500950395 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F993CF04225C75F700950395 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F993CF05225C75F700950395 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F993CF20225C75F700950395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F993CF21225C75F700950395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F993CF23225C75F700950395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J48HY82XT;
+				INFOPLIST_FILE = OCCallJS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renhejinfu.OCCallJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F993CF24225C75F700950395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J48HY82XT;
+				INFOPLIST_FILE = OCCallJS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renhejinfu.OCCallJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F993CF26225C75F700950395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J48HY82XT;
+				INFOPLIST_FILE = OCCallJSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renhejinfu.OCCallJSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCCallJS.app/OCCallJS";
+			};
+			name = Debug;
+		};
+		F993CF27225C75F700950395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J48HY82XT;
+				INFOPLIST_FILE = OCCallJSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renhejinfu.OCCallJSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCCallJS.app/OCCallJS";
+			};
+			name = Release;
+		};
+		F993CF29225C75F700950395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J48HY82XT;
+				INFOPLIST_FILE = OCCallJSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renhejinfu.OCCallJSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCCallJS;
+			};
+			name = Debug;
+		};
+		F993CF2A225C75F700950395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J48HY82XT;
+				INFOPLIST_FILE = OCCallJSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renhejinfu.OCCallJSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCCallJS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F993CEF1225C75F500950395 /* Build configuration list for PBXProject "OCCallJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F993CF20225C75F700950395 /* Debug */,
+				F993CF21225C75F700950395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F993CF22225C75F700950395 /* Build configuration list for PBXNativeTarget "OCCallJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F993CF23225C75F700950395 /* Debug */,
+				F993CF24225C75F700950395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F993CF25225C75F700950395 /* Build configuration list for PBXNativeTarget "OCCallJSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F993CF26225C75F700950395 /* Debug */,
+				F993CF27225C75F700950395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F993CF28225C75F700950395 /* Build configuration list for PBXNativeTarget "OCCallJSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F993CF29225C75F700950395 /* Debug */,
+				F993CF2A225C75F700950395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F993CEEE225C75F500950395 /* Project object */;
+}
