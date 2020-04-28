@@ -43,6 +43,8 @@
     
     //    NSString *parStr = @"dicstr";
     NSString * jsStr = [NSString stringWithFormat:@"func1('%@')",jsonStr];
+    
+    
     NSLog(@"jsStr--%@", jsStr);
     [self.wkWeb evaluateJavaScript:jsStr completionHandler:^(id _Nullable result, NSError * _Nullable error) {
         NSLog(@"结果-%@,错误--%@", result, error);
